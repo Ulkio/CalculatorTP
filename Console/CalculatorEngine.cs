@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Console
 {
+    //GUILLAUME VERSCHAVE
     public class CalculatorEngine
     {
         /// <summary>
