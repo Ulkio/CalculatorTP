@@ -1,0 +1,6 @@
+bin/
+obj/
+packages/
+TestResults/
+.vs/
+db.lock
