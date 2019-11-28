@@ -17,6 +17,7 @@ namespace Console
         /// <returns>Le résultat de l'addition.</returns>
         public int Addition(int a, int b)
         {
+            // Updated
             return a + b;
 
         }
