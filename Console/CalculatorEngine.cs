@@ -9,45 +9,49 @@ namespace Console
     public class CalculatorEngine
     {
         /// <summary>
-        /// Fonction d'addition de deux valeurs.
+        /// Fonction d'addition de deux valeurs entières.
         /// </summary>
         /// <param name="val1">Valeur 1.</param>
         /// <param name="val2">Valeur 2.</param>
         /// <returns>Le résultat de l'addition.</returns>
         public virtual int Addition(int val1, int val2)
         {
-            return val1 + val2;
+            int result = val1 + val2;
+            return result;
         }
 
         /// <summary>
-        /// Fonction de soustraction de deux valeurs.
+        /// Fonction de soustraction de deux valeurs entières.
         /// </summary>
         /// <param name="val1">Valeur 1.</param>
         /// <param name="val2">Valeur 2.</param>
         /// <returns>Le résultat de la soustraction.</returns>
         public virtual int Soustraction(int val1, int val2)
         {
-            return val1 - val2;
+            int result = val1 - val2;
+            return result;
         }
         /// <summary>
-        /// Fonction de multiplication de deux valeurs.
+        /// Fonction de multiplication de deux valeurs entières.
         /// </summary>
         /// <param name="val1">Valeur 1.</param>
         /// <param name="val2">Valeur 2.</param>
         /// <returns>Le résultat de la multiplication.</returns>
         public virtual int Multiplication(int val1, int val2)
         {
-            return val1 * val2;
+            int result = val1 * val2;
+            return result;
         }
         /// <summary>
-        /// Fonction de division de deux valeurs.
+        /// Fonction de division de deux valeurs entières.
         /// </summary>
         /// <param name="val1">Valeur 1.</param>
         /// <param name="val2">Valeur 2.</param>
         /// <returns>Le résultat de la division.</returns>
-        public virtual int Division(int val1, int val2)
+        public virtual double Division(int val1, int val2)
         {
-            return val1 / val2;
+            double result = val1 / val2;
+            return result;
         }
 
         /// <summary>
@@ -57,7 +61,8 @@ namespace Console
         /// <returns>Le résultat de l'opération x².</returns>
         public virtual double PuissanceDeux(double valeur)
         {
-            return Math.Pow(valeur, 2);
+            double resultat = Math.Pow(valeur, 2);
+            return resultat;
         }
 
         /// <summary>
@@ -65,9 +70,10 @@ namespace Console
         /// </summary>
         /// <param name="valeur">Valeur</param>
         /// <returns>Le résultat de l'opération sqrt(x).</returns>
-        public virtual double RacineCarre(int valeur)
+        public virtual double RacineCarre(double valeur)
         {
-            return Math.Sqrt(valeur);
+            double resultat = Math.Sqrt(valeur);
+            return resultat;
         }
 
         /// <summary>
@@ -77,7 +83,9 @@ namespace Console
         /// <returns>Le résultat de la division</returns>
         public virtual double Pourcentage(int valeur)
         {
-            return valeur / 100;
+            double resultat = valeur / 100;
+
+            return resultat;
         }
     }
 }
