@@ -12,49 +12,49 @@ namespace Console
         /// <summary>
         /// Fonction d'addition de deux valeurs.
         /// </summary>
-        /// <param name="a">Valeur 1.</param>
-        /// <param name="b">Valeur 2.</param>
+        /// <param name="val1">Valeur 1.</param>
+        /// <param name="val2">Valeur 2.</param>
         /// <returns>Le résultat de l'addition.</returns>
-        public int Addition(int a, int b)
+        public virtual int Addition(int val1, int val2)
         {
             // Updated
-            return a + b;
+            return val1 + val2;
 
         }
 
         /// <summary>
         /// Fonction de soustraction de deux valeurs.
         /// </summary>
-        /// <param name="a">Valeur 1.</param>
-        /// <param name="b">Valeur 2.</param>
+        /// <param name="val1">Valeur 1.</param>
+        /// <param name="val2">Valeur 2.</param>
         /// <returns>Le résultat de la soustraction.</returns>
-        public int Soustraction(int a, int b)
+        public virtual int Soustraction(int val1, int val2)
         {
 
-            return a - b;
+            return val1 - val2;
         }
         /// <summary>
         /// Fonction de multiplication de deux valeurs.
         /// </summary>
-        /// <param name="a">Valeur 1.</param>
-        /// <param name="b">Valeur 2.</param>
+        /// <param name="val1">Valeur 1.</param>
+        /// <param name="val2">Valeur 2.</param>
         /// <returns>Le résultat de la multiplication.</returns>
-        public int Multiplication(int a, int b)
+        public virtual int Multiplication(int val1, int val2)
         {
 
-            return a * b;
+            return val1 * val2;
         }
         /// <summary>
         /// Fonction de division de deux valeurs.
         /// </summary>
-        /// <param name="a">Valeur 1.</param>
-        /// <param name="b">Valeur 2.</param>
+        /// <param name="val1">Valeur 1.</param>
+        /// <param name="val2">Valeur 2.</param>
         /// <returns>Le résultat de la division.</returns>
-        public int Division(int a, int b)
+        public virtual int Division(int val1, int val2)
         {
             int res;
 
-            res = a / b;
+            res = val1 / val2;
 
             return res;
 
