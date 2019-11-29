@@ -10,8 +10,10 @@ namespace Console
     {
         static void Main(string[] args)
         {
-            CalculatorEngine engine = new CalculatorEngine();
-            engine.Addition(7, 9);
+            foreach (string arg in args)
+            {
+                System.Console.WriteLine(arg);
+            }
         }
     }
 }
