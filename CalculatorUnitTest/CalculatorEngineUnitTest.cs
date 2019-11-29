@@ -62,7 +62,7 @@ namespace CalculatorUnitTest
 
             CalculatorEngine engine = new CalculatorEngine();
 
-            int actual = engine.Division(a, b);
+            double actual = engine.Division(a, b);
 
             Assert.AreEqual(exp, actual);
         }
@@ -78,7 +78,7 @@ namespace CalculatorUnitTest
 
             CalculatorEngine engine = new CalculatorEngine();
 
-            int actual = engine.Division(a, b);
+            double actual = engine.Division(a, b);
 
             Assert.AreEqual(exp, actual);
         }
