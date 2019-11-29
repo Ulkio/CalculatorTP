@@ -81,7 +81,47 @@ namespace CalculatorUnitTest
             int actual = engine.Division(a, b);
 
             Assert.AreEqual(exp, actual);
-        } 
+        }
         #endregion
+
+        [TestMethod]
+        public void TestMethodPuissanceDeux()
+        {
+
+            int a = 2;
+            int exp = 4;
+
+            CalculatorEngine engine = new CalculatorEngine();
+
+            double actual = engine.PuissanceDeux(a);
+
+            Assert.AreEqual(exp, actual);
+        }
+        [TestMethod]
+        public void TestMethodRacineCarre()
+        {
+
+            int a = 4;
+            int exp = 2;
+
+            CalculatorEngine engine = new CalculatorEngine();
+
+            double actual = engine.RacineCarre(a);
+
+            Assert.AreEqual(exp, actual);
+        }
+        [TestMethod]
+        public void TestMethodPourcentage()
+        {
+
+            int a = 100;
+            double exp = 1;
+
+            CalculatorEngine engine = new CalculatorEngine();
+
+            double actual = engine.Pourcentage(a);
+
+            Assert.AreEqual(exp, actual);
+        }
     }
 }
